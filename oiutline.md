@@ -15,7 +15,7 @@ Job:
     -post job
 
 Blog:
-    -tilte
+    -title
     -description
     -created_at
     -category
@@ -33,3 +33,11 @@ Contact
 Home
 
 login
+
+
+
+Relations:
+          - One To Many [foreignkey]
+          - Many To Many
+          - One To One
+
