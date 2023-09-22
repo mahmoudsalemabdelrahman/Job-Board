@@ -1,7 +1,7 @@
 Job:
-    -tilte
+    -title
     -location
-    -job type
+    -job_type
     -description
     -published at
     -vacancy
