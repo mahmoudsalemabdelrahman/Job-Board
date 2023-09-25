@@ -41,7 +41,7 @@ INSTALLED_APPS = [
 
     # my apps
     'job',
-    
+    'django_bootstrap5',
 ]
 
 MIDDLEWARE = [
