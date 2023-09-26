@@ -1773,6 +1773,7 @@ h3 {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
+  
 }
 
 /* line 21, ../../Arafath/CL/December/235. Job board/HTML/scss/_testmonial.scss */
@@ -3301,6 +3302,7 @@ h3 {
   margin-right: 25px;
   border: 1px solid #F0F0F0;
 }
+
 
 /* line 46, ../../Arafath/CL/December/235. Job board/HTML/scss/_job_list.scss */
 .job_listing_area .job_lists .single_jobs .jobs_left .jobs_conetent {
@@ -7472,3 +7474,13 @@ h6 {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
+
+.photo {
+  
+  width: 90px ;
+  height: 90px;
+  margin-left: 4px;
+  padding: auto;
+}
