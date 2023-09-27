@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'django_bootstrap5',
     'contact',
     'django_filters',
+    'rest_framework',
     
 ]
 
@@ -144,4 +145,14 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 LOGIN_REDIRECT_URL = '/accounts/profile'
 LOGIN_URL = '/accounts/login/'
+
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True 
+#DEFAULT_FROM_EMAIL = "MY APP!" 
+EMAIL_HOST_USER =  "mahmoud19salem@gmail.com"
+EMAIL_HOST_PASSWORD = "s v c v z t l o q v n n l p x k "
+ 
 
